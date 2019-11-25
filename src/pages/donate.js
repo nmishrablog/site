@@ -98,9 +98,9 @@ const content = { maxWidth: 48, mx: 0, color: 'black' }
 
 A.link = A.withComponent(Link)
 
-const title = 'Donate – Hack Club'
+const title = 'Support – Open Orgs'
 const desc =
-  'Contribute today to empower the next generation and help start a coding club at every high school.'
+  'Contribute today to Grow the GDP of Open.'
 
 const DonorGrid = styled(Box)`
   display: grid;
@@ -161,11 +161,10 @@ export default () => (
             Donate to Hack Club
           </Heading.h1>
           <Headline maxWidth={32} mt={2} mb={3}>
-            We rely on people like you to bring coding to the world.
+            We rely on people like you to support open orgs.
           </Headline>
           <Lead>
-            Contribute today to empower the next generation. Help start a Hack
-            Club at every high school.
+            Contribute today to grow the GDP of Open.
           </Lead>
           <Text mt={3} fontSize={2} color="muted">
             Your contribution is tax-deductible.
@@ -179,68 +178,6 @@ export default () => (
       </Container>
     </Header>
     <Container {...contentContainer}>
-      <FirstQuote>
-        <Text fontSize={4} mb={3}>
-          When I took CS classes in high school, I always found myself
-          disengaged and feeling like they were just another class. After
-          getting involved in Hack Club, a career in computer science changed
-          from a possibility to reality.
-        </Text>
-        <Text fontSize={[4, 5]} bold>
-          Because of Hack Club, I started organizing hackathons with hundreds of
-          participants, interning for companies including Intuit, and most
-          importantly, fell in love with building things with code.
-        </Text>
-        <Flex align="center" mt={[3, 4]}>
-          <Avatar src="/hackers/selynna.jpg" size={48} mr={3} />
-          <Box align="left" fontSize={3}>
-            <Text.span bold>Selynna Sun</Text.span>
-            <Text fontSize={2} color="green.1">
-              Sophomore & CS Major @ Cal Poly SLO
-            </Text>
-          </Box>
-        </Flex>
-      </FirstQuote>
-      <Container maxWidth={48} py={[4, 5]}>
-        <Subhline>Contribute beyond just dollars.</Subhline>
-        <Lead mt={3} mb={2}>
-          We accept donations of time, technical or hard science fiction books,
-          stocks/other securities, and cryptocurrency.
-        </Lead>
-        <Lead mb={4}>
-          Please get in touch at{' '}
-          <A href="mailto:donate@hackclub.com">donate@hackclub.com</A> if you’re
-          interested in making a contribution with an unsupported token or have
-          questions.
-        </Lead>
-        <Box>
-          <Button
-            href="https://commerce.coinbase.com/checkout/ae7ad42d-0dcd-4e9d-8dc7-ba78648a58cd"
-            target="_blank"
-            bg="info"
-            chevronRight
-          >
-            Donate with cryptocurrency
-          </Button>
-        </Box>
-      </Container>
-      <SecondQuote mt={[3, 4]} mb={[4, 5]}>
-        <Text fontSize={[4, 5]} bold>
-          Hack Club has inspired me to grow and become the person I am today.
-          Being part of the community allows me to meet countless like-minded
-          individuals who challenge me to become a better person, and a better
-          hacker.
-        </Text>
-        <Flex align="center" mt={[3, 4]}>
-          <Avatar src="/hackers/rashid.jpg" size={48} mr={3} />
-          <Box align="left" fontSize={3}>
-            <Text.span bold>Rashid Al-Abri</Text.span>
-            <Text fontSize={2} color="blue.1">
-              Club leader from Oman in Victoria, BC, Canada
-            </Text>
-          </Box>
-        </Flex>
-      </SecondQuote>
     </Container>
     <Flex justify="center" bg="snow" color="black">
       <Container width={1} py={[4, 5]} align={['left', 'center']}>
@@ -260,7 +197,7 @@ export default () => (
     <Container {...contentContainer}>
       <Row my={5} {...content}>
         <Subhline mb={4}>
-          Some fabulous companies donate their products to us.
+          Some fabulous companies support us.
         </Subhline>
         <Sponsors />
       </Row>
