@@ -357,9 +357,9 @@ const contentContainer = {
   color: 'black'
 }
 
-const title = 'Hack Club'
+const title = 'Open Orgs'
 const desc =
-  'Learn how to start a coding club at your high school through Hack Club. Get programming club ideas, curriculum, activities, and more.'
+  'Create at internet scale, build int he open with an Open Org. Collect funds, reward contributors and more.'
 
 const OnlyDesktop = styled.span`
   display: none;
