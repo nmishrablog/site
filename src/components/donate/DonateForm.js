@@ -88,15 +88,15 @@ class DonateForm extends Component {
         <Box bg="primary" color="white" mx={[-3, -4]} pb={4} mb={3}>
           <Secure p={2} mr={[-3, -4]}>
             <Text fontSize={0} color="red.1" caps bold>
-              Secure
+              Secured by Stripe.
             </Text>
             <Icon size={16} glyph="private" color="red.1" ml={2} />
           </Secure>
           <Heading.h2 mt={[-3, -4]} pt={4} px={3} fontSize={5}>
-            Become a patron
+            Contribute to Open Orgs
           </Heading.h2>
           <Text color="snow" mt={1} fontSize={1}>
-            Just $3 supports a student for a month
+            You are helping people create at internet scale.
           </Text>
         </Box>
         <Flex align="center" justify="center" color="black">
@@ -184,8 +184,8 @@ class DonateForm extends Component {
     this.stripeHandler.open({
       name: 'Hack Club',
       description: this.state.recurring
-        ? 'Monthly contribution to Hack Club'
-        : 'One-time contribution to Hack Club',
+        ? 'Monthly contribution to Open Orgs'
+        : 'One-time contribution to Open Orgs',
       panelLabel: this.state.recurring
         ? 'Donate {{amount}} monthly'
         : 'Donate {{amount}}',
