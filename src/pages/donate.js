@@ -158,18 +158,18 @@ export default () => (
       >
         <Container maxWidth={48} mx={0}>
           <Heading.h1 color="primary" fontSize={[3, 4]} caps>
-            Donate to Hack Club
+            Support Open Orgs
           </Heading.h1>
           <Headline maxWidth={32} mt={2} mb={3}>
-            We rely on people like you to support open orgs.
+           Contribute today to grow the GDP of Open.
           </Headline>
           <Lead>
-            Contribute today to grow the GDP of Open.
+             Open Orgs is an Open Org.
           </Lead>
           <Text mt={3} fontSize={2} color="muted">
-            Your contribution is tax-deductible.
+            Read our post on <a href="https://openorgs.co/Dogfooding-Open_orgs/">Dogfooding Open Orgs.</a>
             <br />
-            Hack Club is a 501(c)(3) non-profit with the EIN 81-2908499.
+           
           </Text>
         </Container>
         <DonateSheet mt={[0, -3, -4]}>
