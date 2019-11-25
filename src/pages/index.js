@@ -399,12 +399,10 @@ export default () => (
       >
         <Container width={1} maxWidth={72} px={3} mt={[5, 6]} mb={[4, 5]}>
           <Headline maxWidth={48} mx="auto" fontSize={[6, 7, 8]} mb={2}>
-            We’re high schoolers leading the best coding clubs
-            in&nbsp;the&nbsp;world.
+            Come build internet scale organizations, collect funds, reward contributors and more with Open Orgs.
           </Headline>
           <SectionLead fontSize={[3, 4]} mx="auto" mb={0}>
-            Hack&nbsp;Club is a global network of programming clubs where
-            members learn to code through tinkering and building&nbsp;projects.{' '}
+            Open Orgs is a global network of people creating.{' '}
             <OnlyDesktop>
               <br />
             </OnlyDesktop>
@@ -421,8 +419,8 @@ export default () => (
     </Box>
     <Box bg="white" py={[5, 6]}>
       <Container color="black" px={3}>
-        <SectionEyebrow>Clubs in action</SectionEyebrow>
-        <SectionHeadline>Build superpowers at your club.</SectionHeadline>
+        <SectionEyebrow>Orgs in action</SectionEyebrow>
+        <SectionHeadline>Create with Superpowers.</SectionHeadline>
         <SectionLead>
           Hack&nbsp;Clubs{' '}
           <Highlight>
