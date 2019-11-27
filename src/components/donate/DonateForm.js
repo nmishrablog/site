@@ -207,18 +207,7 @@ class DonateForm extends Component {
 
     this.setState({ status: 'loading' })
 
-    api
-      .post('v1/donations', { data })
-      .then(data => {
-        if (data.donation_successful) {
-          this.setState({ status: 'done' })
-        } else {
-          this.setState({ status: 'error' })
-        }
-      })
-      .catch(() => {
-        this.setState({ status: 'error' })
-      })
+    
   }
 
   handleAmountChange = a => {
