@@ -1,17 +1,5 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import {
-  Box,
-  LargeButton,
-  Button,
-  Flex,
-  Heading,
-  Icon,
-  Input,
-  Label,
-  Text,
-  theme
-} from '@hackclub/design-system'
 import { PUBLIC_STRIPE_KEY } from 'constants.js'
 import { toNumber } from 'lodash'
 import api from 'api'
@@ -206,7 +194,18 @@ class DonateForm extends Component {
     data.append('amount', this.amountInCents())
 
     this.setState({ status: 'loading' })
-
+api
+      .post('v1/donations', { data })
+      .then(data => {
+        if (data.donation_successful) {
+          this.setState({ status: 'done' })
+        } else {
+          this.setState({ status: 'error' })
+        }
+      })
+      .catch(() => {
+        this.setState({ status: 'error' })
+      })
     
   }
 
