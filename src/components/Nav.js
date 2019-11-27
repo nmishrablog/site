@@ -131,7 +131,7 @@ const Navigation = props => (
       rel="noopener noreferrer"
     />
     <Link to="/bank/" children="Bank" />
-    <Link to="/donate/" children="Donate" />
+    <Link to="/openorgs/" children="Open Orgs" />
   </NavBar>
 )
 
