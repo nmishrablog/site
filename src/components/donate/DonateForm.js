@@ -1,5 +1,17 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import {
+  Box,
+  LargeButton,
+  Button,
+  Flex,
+  Heading,
+  Icon,
+  Input,
+  Label,
+  Text,
+  theme
+} from '@hackclub/design-system'
 import { PUBLIC_STRIPE_KEY } from 'constants.js'
 import { toNumber } from 'lodash'
 import api from 'api'
